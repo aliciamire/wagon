@@ -15,6 +15,7 @@ body{
 	margin: auto;
 	padding: 20px 0;
 	width: 35%;
+	float:left;
 }
 .navbar {
 	float:right;
