@@ -4,14 +4,17 @@ body{
   color: #666;
 }
 .content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
 	padding: 0 20px;
 	background-color: #fff;
-	width: 82%;
 	margin:0 80px;
 }
 .intro {
 	margin: auto;
 	padding: 20px 0;
+	width: 35%;
 }
 .navbar {
 	float:right;
@@ -25,7 +28,7 @@ body{
 	background-color: #374574;
 	opacity: 0.5;
 	border-radius: 8px;
-    padding: 8px 20%;
+    padding: 8px 40px;
 }
 #navbar li a {
 	display:block;
@@ -65,7 +68,7 @@ a:hover {
     text-align: center;
     width: 25%;
     float: left;
-    margin: 0 42px;
+    margin: 0 32px;
 }
 img {
 	border-radius: 50%;
